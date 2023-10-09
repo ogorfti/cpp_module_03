@@ -6,7 +6,7 @@
 #    By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 12:08:20 by ogorfti           #+#    #+#              #
-#    Updated: 2023/10/09 18:07:02 by ogorfti          ###   ########.fr        #
+#    Updated: 2023/10/09 22:23:34 by ogorfti          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,6 +14,7 @@ NAME = Hunter
 
 SRCS = main.cpp\
 		ClapTrap.cpp\
+		ScavTrap.cpp\
 		FragTrap.cpp\
 
 OBJS = $(SRCS:.cpp=.o)
@@ -24,7 +25,7 @@ CC = c++
 
 RM = rm -f
 
-all : $(NAME) clean
+all : $(NAME)
 
 $(NAME) : $(OBJS)
 	$(CC) $(CXXFLAGS) $(OBJS) -o $(NAME)

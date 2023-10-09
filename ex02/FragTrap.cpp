@@ -6,7 +6,7 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 15:31:05 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/09 18:05:01 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/09 22:15:02 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@
 
 FragTrap::FragTrap()
 {
+	this->name = "Guest42";
+	this->hitPoints = 100;
+	this->energyPoints = 100;
+	this->attackDamage = 30;
 	std::cout << "FragTrap Default constructor called" << std::endl;
 }
 
@@ -51,7 +55,6 @@ FragTrap::~FragTrap()
 {
 	std::cout << "FragTrap Destructor called" << std::endl;
 }
-
 
 /*-------------------- Member functions --------------------*/
 

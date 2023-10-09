@@ -6,7 +6,7 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 11:44:01 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/09 16:46:09 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/09 21:58:06 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@
 
 ClapTrap::ClapTrap()
 {
+	this->name = "Guest42";
+	this->hitPoints = 10;
+	this->energyPoints = 10;
+	this->attackDamage = 0;
 	std::cout << "ClapTrap Default constructor called" << std::endl;
 }
 
@@ -24,7 +28,7 @@ ClapTrap::ClapTrap(std::string newName)
 	this->name = newName;
 	this->hitPoints = 10;
 	this->energyPoints = 10;
-	this->attackDamage = 10;
+	this->attackDamage = 0;
 	std::cout << "ClapTrap Parameterize constructor called" << std::endl;
 }
 

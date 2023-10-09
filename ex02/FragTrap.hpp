@@ -6,14 +6,15 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 13:38:43 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/09 18:01:56 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/09 22:19:36 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FRAGTRAP_H
-#define FRAGTRAP_H
+#ifndef FRAGTRAP_HPP
+#define FRAGTRAP_HPP
 
 #include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 class FragTrap : public ClapTrap
 {

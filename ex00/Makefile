@@ -6,7 +6,7 @@
 #    By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 12:08:20 by ogorfti           #+#    #+#              #
-#    Updated: 2023/10/09 13:27:26 by ogorfti          ###   ########.fr        #
+#    Updated: 2023/10/09 21:56:43 by ogorfti          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ CC = c++
 
 RM = rm -f
 
-all : $(NAME) clean
+all : $(NAME)
 
 $(NAME) : $(OBJS)
 	$(CC) $(CXXFLAGS) $(OBJS) -o $(NAME)

@@ -6,12 +6,12 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 11:36:10 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/09 12:06:14 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/09 21:56:04 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef CLAPTRAP_H
-#define CLAPTRAP_H
+#ifndef CLAPTRAP_HPP
+#define CLAPTRAP_HPP
 
 #include <iostream>
 
