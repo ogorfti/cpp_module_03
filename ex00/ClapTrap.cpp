@@ -6,7 +6,7 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 11:44:01 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/09 13:23:36 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/09 16:56:16 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 ClapTrap::ClapTrap()
 {
-	std::cout << "Default constructor called" << std::endl;
+	std::cout << "ClapTrap Default constructor called" << std::endl;
 }
 
 ClapTrap::ClapTrap(std::string newName)
@@ -25,6 +25,7 @@ ClapTrap::ClapTrap(std::string newName)
 	this->hitPoints = 10;
 	this->energyPoints = 10;
 	this->attackDamage = 10;
+	std::cout << "ClapTrap Parameterize constructor called" << std::endl;
 }
 
 ClapTrap& ClapTrap::operator=(ClapTrap& other)
@@ -35,20 +36,20 @@ ClapTrap& ClapTrap::operator=(ClapTrap& other)
 		this->hitPoints = other.hitPoints;
 		this->energyPoints = other.energyPoints;
 		this->attackDamage = other.attackDamage;
-		std::cout << "Copy assignment operator called" << std::endl;
+		std::cout << "ClapTrap Copy assignment operator called" << std::endl;
 	}
 	return (*this);
 }
 
 ClapTrap::ClapTrap(ClapTrap& other)
 {
-	std::cout << "Copy constructor called" << std::endl;
+	std::cout << "ClapTrap Copy constructor called" << std::endl;
 	*this = other;
 }
 
 ClapTrap::~ClapTrap()
 {
-	std::cout << "Destructor called" << std::endl;
+	std::cout << "ClapTrap Destructor called" << std::endl;
 }
 
 /*-------------------- Member functions --------------------*/

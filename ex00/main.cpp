@@ -6,7 +6,7 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:06:52 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/09 13:32:44 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/09 16:48:02 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,8 @@
 int main()
 {
 	ClapTrap clap("Gon");
-	ClapTrap hxh;
+	ClapTrap hxh(clap);
 
-	hxh = clap;
 	hxh.attack("Neferpitou");
 	hxh.attack("Neferpitou");
 	hxh.beRepaired(50);
