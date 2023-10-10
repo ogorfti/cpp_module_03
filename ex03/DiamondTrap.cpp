@@ -6,7 +6,7 @@
 /*   By: ogorfti <ogorfti@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:52:30 by ogorfti           #+#    #+#             */
-/*   Updated: 2023/10/10 16:07:23 by ogorfti          ###   ########.fr       */
+/*   Updated: 2023/10/10 18:04:08 by ogorfti          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ DiamondTrap::DiamondTrap()
 	this->name = "Guest42";
 	this->hitPoints = 100;
 	this->energyPoints = 50;
-	this->attackDamage = 20;
+	this->attackDamage = 30;
 	std::cout << "DiamondTrap Default constructor called" << std::endl;
 }
 
@@ -28,7 +28,7 @@ DiamondTrap::DiamondTrap(std::string newName)
 	this->name = newName;
 	this->hitPoints = 100;
 	this->energyPoints = 50;
-	this->attackDamage = 20;
+	this->attackDamage = 30;
 	std::cout << "DiamondTrap Parameterize constructor called" << std::endl;
 }
 
